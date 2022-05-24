@@ -1,2 +1,2 @@
 #!/bin/Bash
-cat | tr -d 'Cc'
+tr -d 'Cc'
