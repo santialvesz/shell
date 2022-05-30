@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#
+x=10; while  [ $x -gt 0 ]; do x=$((x-1)); if [ $x -eq 6 ]; then echo "bad luck"; elif [ $x -eq 2 ]; then echo "good luck"; else echo "Best School"; fi done 
