@@ -1,2 +1,2 @@
 #!/bin/bash
-sum=#(($WATER + $STIR)) | printf "%o" | echo $sum
+sum=#(($WATER + $STIR)) | echo $sum | printf "%o"
