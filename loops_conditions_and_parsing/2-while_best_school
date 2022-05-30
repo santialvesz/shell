@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-#
+# repeat "msg" 10 times using while
 x=10; while  [ $x -gt 0 ]; do echo "Best School";x=$((x-1)); done
 
