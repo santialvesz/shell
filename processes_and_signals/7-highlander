@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#
+while true
+do
+	        echo To infinity and beyond
+		                sleep 2
+			if 
+			
+			pkill -15 -f 7-highlander
+			echo I am invincible!!!
+			fi
+			
+			
+			done
+
