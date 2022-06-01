@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Script that creates, displays and delete
 echo "ps" > /var/run/myscript.pid
-trap "echo I am invincible!!!" SIGTERM
+trap "echo I hate the kill command" SIGTERM
 trap "echo Y U no love me?!" SIGINT
 trap "echo rm /var/run/myscript.pid" SIGQUIT SIGTERM
 while true
