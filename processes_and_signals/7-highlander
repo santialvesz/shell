@@ -1,16 +1,9 @@
 #!/usr/bin/env bash
 #
+trap "echo I am invincible!!!; exit" SIGINT
 while true
 do
 	        echo To infinity and beyond
-		                sleep 2
-			if 
-			
-			pkill -15 -f 7-highlander
-			then
-			echo I am invincible!!!
-			fi
-			
-			
-			done
+		                sleep 2				
+done
 
